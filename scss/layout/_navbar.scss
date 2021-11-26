@@ -1,0 +1,25 @@
+.navbar {
+    .navbar-brand{
+        margin-left: 10px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: $tertiary-color;
+        font-family: $primary-text;
+        font-size: 20px;
+        font-weight: $font-regular;
+        margin: 0px 15px 0px 15px;
+        transition: all 500ms;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover{
+        color: $primary-color !important;
+        transform: scale(1.1, 1.1)
+    }
+
+    .active { 
+        color: $primary-color !important;
+    }
+  
+  }
+  
+

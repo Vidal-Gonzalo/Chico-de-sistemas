@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#solutions {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: linear-gradient(0deg, #F1F6FD 8.97%, #F1F6FD 45.38%, rgba(241, 246, 253, 0.17) 100%);
+    .solutions__title{
+        font-family: $primary-text;
+        font-weight: $font-semi;
+        font-size: 48px;
+    }
+    .solutions__description{
+        padding-top: 15px;
+        font-family: $secondary-text;
+        font-weight: $font-regular;
+        font-size: 24px;
+    }
+    .solutions__cards{
+        margin: 50px 30px 0px 0px;
+        display: flex;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 14px;
+        box-shadow: 5px 8px 10px 10px rgba(14, 13, 13, 0.17);
+       .solutions__cards-icon{
+           display: flex;
+           align-items: center;
+           .circle{
+            height:70px;
+            width:70px;
+            padding: 15px;
+            background: linear-gradient(180deg, #338BFF 0%, #24AFB5 100%);
+            box-shadow: 0px 10px 22px -2px rgba(250, 186, 84, 0.3);
+            border-radius: 24px;
+            margin-left: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+       }
+       .solutions__cards-text {
+           text-align: left;
+           padding: 10px;
+       }
+       .solutions__cards-text h3{
+           font-family: $primary-text;
+           font-weight: $font-semi;
+           font-size: 22px;
+       }
+       
+       .solutions__cards-text p{
+           font-family: $secondary-text;
+           font-size: 16px;
+       }
+    }
+}
+
+#presentation {
+    .presentation__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        padding: 40px;
+        .presentation__text-title{
+            font-family: $primary-text;
+            font-weight: $font-semi;
+            font-size: 48px;
+        }
+        .presentation__text-description {
+            font-family: $secondary-text;
+            font-size: 20px;
+        }
+        .presentation__text-button {
+            text-decoration: none;
+            color: $primary-color;
+            font-size: 20px;
+        }
+    }
+
+    .presentation__image {
+        height: 500px;
+    }
+}
+
+#opinions {
+    padding-top: 130px;
+    .opinions__title {
+        font-family: $primary-text;
+        font-size: 48px;
+        font-weight: $font-semi;
+        text-align: center;
+    }
+    
+}
+
+.banner {
+    background-image: url("./img/banner-contacto.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .banner-text {
+        font-family: $secondary-text;
+        font-weight: $font-semi;
+        font-size: 36px;
+        color: $secondary-color;
+        margin-right: 50px;
+    }
+    .banner-button {
+        font-family: $primary-text;
+        font-weight: $font-semi;
+        font-size: 20px;
+        color: $secondary-color;
+        width: 190px;
+        height: 50px;
+        background: rgba(41, 202, 209, 0.9);
+        border-radius: 6px;
+        border: none;
+    }
+}
+
+.whatsapp-icon {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 5%;
+    right: 4%;
+    height:70px;
+    width:70px;
+    color: $secondary-color;
+    background:#33c220;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    .button {
+        z-index: 1;
+        text-decoration: none;
+    }
+}
+

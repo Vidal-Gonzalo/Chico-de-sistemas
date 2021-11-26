@@ -1,0 +1,37 @@
+.owl-carousel {
+    .item{
+        font-family: $secondary-text;
+        min-height: 250px;
+        max-height: 250px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid #DBDBDB;
+        border-radius: 8px;
+        .item__image{
+            height:70px;
+            width:70px;
+            -moz-border-radius:50px;
+            -webkit-border-radius:50px;
+            border-radius:50px;
+        }
+        .item__info{
+            display: flex;
+            .item__info-text{
+                font-weight: $font-semi;
+            }
+            .item__info-list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                list-style: none;
+                .bi{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
