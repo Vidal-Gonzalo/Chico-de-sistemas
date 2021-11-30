@@ -1,7 +1,4 @@
 .navbar {
-    .navbar-brand{
-        margin-left: 10px;
-    }
     .navbar-nav .nav-item .nav-link {
         color: $tertiary-color;
         font-family: $primary-text;
@@ -20,6 +17,19 @@
         color: $primary-color !important;
     }
   
-  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .navbar {
+        .navbar-brand {
+            img {
+                width: 230px;
+            }
+        }
+        .navbar-nav .nav-item .nav-link {
+            margin: 0px 0px 0px 0px;
+        }
+    }
+}
   
 
