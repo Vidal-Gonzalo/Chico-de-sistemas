@@ -1,0 +1,81 @@
+.aboutHero{
+    font-family: $primary-text;
+    background: linear-gradient(107.11deg, #338BFF 23.54%, #24AFB5 77.17%);
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    &__title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        color: #fff;
+    }
+    &__img{
+        max-width: 900px;
+        margin-top: 30px;
+        margin-bottom: -130px;
+        border-radius: 80px;
+    }
+}
+
+.aboutPresentation{
+    font-family: $primary-text;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        font-size: 48px;
+        font-weight: 400;
+        letter-spacing: -1.2px;
+        color: $tertiary-color;
+    }
+    &__text{
+        margin-top: 40px;
+        font-size: 30px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: -1.2px;
+    }
+}
+
+.aboutBanner{
+    font-family: $primary-text;
+    background: linear-gradient(107.11deg, #338BFF 23.54%, #24AFB5 77.17%);
+    padding: 60px 5%;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    &__text{
+        text-align: center;
+        font-weight: bold;
+        font-size: 45px;
+        color: #fff;
+    }
+}
+
+.info{
+    font-family: $primary-text;
+    &__textContainer{
+        h4{
+            font-weight: 500;
+            font-size: 36px;
+            color: $tertiary-color;
+        }
+        p{
+            font-size: 30px;
+            color: $dark-gray;
+        }
+    }
+}
+
+.separatorLine{
+    width: 100%;
+    height: 1px;
+    background-color: $tertiary-color;
+    margin: 50px 0;
+}

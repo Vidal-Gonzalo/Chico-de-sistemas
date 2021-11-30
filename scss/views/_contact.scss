@@ -1,0 +1,95 @@
+.contactHero{
+    font-family: $primary-text;
+    margin-top: 88px;
+    padding: 50px 0;
+    background: linear-gradient(116.58deg, #338BFF 0%, #24AFB5 100%);
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        color: #fff;
+        .info{
+            &__title{
+                font-weight: 600;
+                font-size: 64px;
+            }
+            &__subtitle{
+                font-weight: 600;
+                font-size: 30px;
+                margin-bottom: 30px;
+            }
+            &__text{
+                font-weight: 400;
+                font-size: 25px;
+            }
+        }
+    }
+    &__formContainer{
+        background-color: #fff;
+        border-radius: 50px;
+        padding: 50px;
+        position: relative;
+    }
+    &__formTitle{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        color: $dark-gray;
+        margin-bottom: 30px;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input, textarea{
+            border: 1px solid $dark-gray;
+            width: 100%;
+            outline: none;
+            border-radius: 10px;
+            padding: 10px 30px;
+            margin-bottom: 40px;
+            font-size: 24px;
+            line-height: 36px;
+            color: #878787;
+            &.contactHero__formMessage{
+                height: 220px;
+                resize: none;
+            }
+            &.contactHero__inputError{
+                border: 2px solid #aa5050;
+            }
+        }
+    }
+    &__formSubmit{
+        background: linear-gradient(116.58deg, #338BFF 0%, #24AFB5 100%);
+        border-radius: 6px;
+        border: none;
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        width: 360px;
+        padding: 10px 0;
+    }
+    &__formStatusMessage{
+        font-size: 20px;
+        transition: all .2s ease;
+        color: $primary-color;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        span{
+            margin-bottom: 5px;
+        }
+    }
+}
+
+.contactMap{
+    &__container{
+        overflow: hidden;
+    }
+    &__map{
+        margin-top: -46px;
+    }
+}

@@ -1,45 +1,56 @@
-.footer {
+.footer{
     padding-top: 130px;
     margin-top: 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-top: 1px #CECECE solid;
-    font-family: 'Inter', sans-serif; }
-    .footer a {
-      text-decoration: none;
-      color: #232323; }
-    .footer__container {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start; }
-    .footer__logo {
-      max-width: 100px; }
-    .footer__nav {
-      list-style: none;
-      color: #232323;
-      font-weight: 400;
-      margin-bottom: 10px;
-      padding: 0; }
-      .footer__nav li {
-        margin-bottom: 10px; }
-    .footer__text--bold {
-      color: #1c1c1c;
-      font-weight: 600; }
-    .footer__iconsContainer {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 10px; }
-    .footer__icon {
-      max-width: 45px;
-      cursor: pointer; }
-    .footer__copyrightContainer {
-      background: linear-gradient(116.58deg, #338BFF 0%, #24AFB5 100%);
-      margin-top: 50px;
-      width: 100%;
-      padding: 20px 0;
-      display: flex;
-      justify-content: center; }
-    .footer__copyright {
-      color: #F1F6FD;
-      font-weight: 500; }
+    font-family: 'Inter', sans-serif;
+    a{
+        text-decoration: none;
+        color: $dark-gray;
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__logo{
+        max-width: 100px;
+    }
+    &__nav{
+        list-style: none;
+        color: $dark-gray;
+        font-weight: 400;
+        margin-bottom: 10px;
+        padding: 0;
+        li{
+            margin-bottom: 10px;
+        }
+    }
+    &__text--bold{
+        color: #1c1c1c;
+        font-weight: 600;
+    }
+    &__iconsContainer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    &__icon{
+        max-width: 45px;
+        cursor: pointer;
+    }
+    &__copyrightContainer{
+        background: linear-gradient(116.58deg, #338BFF 0%, #24AFB5 100%);
+        margin-top: 50px;
+        width: 100%;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    &__copyright{
+        color: #F1F6FD;
+        font-weight: 500;
+    }
+}
