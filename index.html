@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El chico de sistemas</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <!--Favicon-->
+    <link rel="icon" href="css/img/logo-small.png" type="image/x-icon"/>
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -25,8 +27,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="css/img/Logo.jpeg" alt="El chico de sistemas"
-                        srcset=""></a>
+                <a class="navbar-brand" href="#"><img src="css/img/Logo.jpeg" alt="El chico de sistemas" srcset=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -34,8 +35,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item ms-5">
-                            <a class="nav-link active" aria-current="page" href="./pages/about.html">Sobre mi</a>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" aria-current="page" href="./pages/about.html">Sobre mi</a>
                         </li>
                         <li class="nav-item ms-3 dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -51,7 +52,7 @@
                                 <li><a class="dropdown-item" href="#solutions">Mantenimiento de PCs</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item ms-5">
+                        <li class="nav-item ms-3">
                             <a class="nav-link" href="./pages/contact.html">Contacto</a>
                         </li>
                     </ul>
@@ -286,7 +287,7 @@
                             por lo que
                             ponemos nuestro corazón en el trabajo.
                         </p>
-                        <a href="#" class="presentation__text-button">Leer más</a>
+                        <a href="./pages/about.html" class="presentation__text-button">Leer más</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -398,7 +399,7 @@
 
     <div class="banner mt-5 ">
         <h3 class="banner-text">Soporte y asesoramiento remoto y presencial</h3>
-        <button class="banner-button">Contactanos</button>
+        <a href="pages/contact.html"><button class="banner-button">Contactanos</button></a>
     </div>
     <a href="https://wa.me/1162634957?text='Hola,%20te%20escribo%20por%20el%20siguiente%20motivo'" target="_onblank"
         class="button">
@@ -427,8 +428,8 @@
                 </ul>
             </a>
             <ul class="footer__nav footer__nav--contact">
-                <li class="footer__text--bold">CONTACTO</li>
-                <li><a href="">Whatsapp</a></li>
+                <li class="footer__text--bold"><a href="./pages/contact.html">CONTACTO</a></li>
+                <li><a href="https://wa.me/1162634957?text='Hola,%20te%20escribo%20por%20el%20siguiente%20motivo'" target="_onblank">Whatsapp</a></li>
                 <li><a href="./pages/contact.html">Correo electrónico</a></li>
                 <li><a href="./pages/contact.html">Presupuestos</a></li>
             </ul>

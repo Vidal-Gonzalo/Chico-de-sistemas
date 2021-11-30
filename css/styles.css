@@ -6,7 +6,14 @@
   margin: 0px 15px 0px 15px;
   transition: all 500ms; }
 
-.navbar .navbar-nav .nav-item .nav-link:hover {
+.navbar .dropdown-menu .dropdown-item {
+  font-family: "Poppins", sans-serif;
+  color: #338BFF;
+  padding: 20px 20px 20px 20px;
+  border-bottom: 1px solid #000000; }
+
+.navbar .dropdown-menu
+.navbar-nav .nav-item .nav-link:hover {
   color: #338BFF !important;
   transform: scale(1.1, 1.1); }
 
@@ -43,7 +50,11 @@
     margin-bottom: 10px;
     padding: 0; }
     .footer__nav li {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      transition: 500ms all; }
+    .footer__nav li:hover {
+      color: #338BFF;
+      transform: scale(1.1, 1.1); }
   .footer__text--bold {
     color: #1c1c1c;
     font-weight: 600; }
@@ -121,6 +132,25 @@
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.6); }
+
+@media (min-width: 1700px) {
+  .carousel .carousel-item .carousel-caption {
+    top: 30%;
+    right: 90%; }
+    .carousel .carousel-item .carousel-caption h1 {
+      font-size: 55px; }
+  .carousel .carousel-item .carousel-second-caption {
+    top: 20%;
+    right: 0%;
+    left: 24%; }
+    .carousel .carousel-item .carousel-second-caption h1 {
+      font-size: 55px; }
+  .carousel .carousel-item .carousel-third-caption {
+    top: 20%;
+    right: 0%;
+    left: 24%; }
+    .carousel .carousel-item .carousel-third-caption h1 {
+      font-size: 55px; } }
 
 @media (max-width: 992px) {
   .carousel .carousel-inner .carousel-item {
@@ -247,7 +277,7 @@
     font-weight: 400;
     font-size: 24px; }
   #solutions .solutions__cards {
-    margin: 50px 30px 0px 0px;
+    margin: 50px 0px 0px 0px;
     min-height: 200px;
     display: flex;
     align-items: center;
@@ -353,108 +383,6 @@
   .whatsapp-icon .button {
     z-index: 1;
     text-decoration: none; }
-
-@media (min-width: 320px) and (max-width: 430px) {
-  #solutions .solutions__wrap {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important; }
-  #solutions .solutions__title {
-    font-size: 24px; }
-  #solutions .solutions__description {
-    font-size: 16px; }
-  #solutions .solutions__cards {
-    margin: 50px 0px 0px 0px; }
-    #solutions .solutions__cards .solutions__cards-icon .circle {
-      height: 60px;
-      width: 60px;
-      margin-left: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-  #presentation .presentation__text .presentation__text-title {
-    font-size: 24px; }
-  #presentation .presentation__text .presentation__text-description {
-    font-size: 16px; }
-  #presentation .presentation__text .presentation__text-button {
-    font-size: 20px; }
-  #presentation .presentation__image {
-    height: 300px; }
-  #opinions .opinions__title {
-    font-size: 24px; }
-  .banner {
-    text-align: center;
-    flex-direction: column;
-    justify-content: center; }
-    .banner .banner-text {
-      font-size: 20px;
-      margin: 0 auto;
-      padding: 15px; }
-    .banner .banner-button {
-      margin: 0 auto;
-      font-size: 20px;
-      color: #FAFAFA;
-      background: rgba(41, 202, 209, 0.9);
-      border-radius: 6px;
-      border: none; }
-  .whatsapp-icon {
-    height: 60px;
-    width: 60px; } }
-
-@media (min-width: 430px) and (max-width: 992px) {
-  #solutions .solutions__wrap {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important; }
-  #solutions .solutions__title {
-    font-size: 32px; }
-  #solutions .solutions__description {
-    font-size: 20px; }
-  #solutions .solutions__cards .solutions__cards-icon {
-    display: flex;
-    align-items: center;
-    margin-top: 10px; }
-    #solutions .solutions__cards .solutions__cards-icon .circle {
-      height: 60px;
-      width: 60px;
-      margin-left: 15px; }
-  #solutions .solutions__cards .solutions__cards-text {
-    padding: 20px; }
-    #solutions .solutions__cards .solutions__cards-text h3 {
-      font-family: "Poppins", sans-serif;
-      font-weight: 600;
-      font-size: 20px; }
-    #solutions .solutions__cards .solutions__cards-text p {
-      font-family: "Inter", sans-serif;
-      font-size: 14px; }
-  #presentation .presentation__text .presentation__text-title {
-    font-size: 24px; }
-  #presentation .presentation__text .presentation__text-description {
-    font-size: 16px; }
-  #presentation .presentation__text .presentation__text-button {
-    font-size: 20px; }
-  #presentation .presentation__image {
-    height: 300px; }
-  #opinions .opinions__title {
-    font-size: 24px; }
-  .banner {
-    text-align: center;
-    flex-direction: column;
-    justify-content: center; }
-    .banner .banner-text {
-      font-size: 20px;
-      margin: 0 auto;
-      padding: 15px; }
-    .banner .banner-button {
-      margin: 0 auto;
-      font-size: 20px;
-      color: #FAFAFA;
-      background: rgba(41, 202, 209, 0.9);
-      border-radius: 6px;
-      border: none; }
-  .whatsapp-icon {
-    height: 60px;
-    width: 60px; } }
 
 .aboutHero {
   font-family: "Poppins", sans-serif;
@@ -600,6 +528,108 @@
 
 .contactMap__map {
   margin-top: -46px; }
+
+@media (min-width: 320px) and (max-width: 430px) {
+  #solutions .solutions__wrap {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; }
+  #solutions .solutions__title {
+    font-size: 24px; }
+  #solutions .solutions__description {
+    font-size: 16px; }
+  #solutions .solutions__cards {
+    margin: 50px 0px 0px 0px; }
+    #solutions .solutions__cards .solutions__cards-icon .circle {
+      height: 60px;
+      width: 60px;
+      margin-left: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  #presentation .presentation__text .presentation__text-title {
+    font-size: 24px; }
+  #presentation .presentation__text .presentation__text-description {
+    font-size: 16px; }
+  #presentation .presentation__text .presentation__text-button {
+    font-size: 20px; }
+  #presentation .presentation__image {
+    height: 300px; }
+  #opinions .opinions__title {
+    font-size: 24px; }
+  .banner {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; }
+    .banner .banner-text {
+      font-size: 20px;
+      margin: 0 auto;
+      padding: 15px; }
+    .banner .banner-button {
+      margin: 0 auto;
+      font-size: 20px;
+      color: #FAFAFA;
+      background: rgba(41, 202, 209, 0.9);
+      border-radius: 6px;
+      border: none; }
+  .whatsapp-icon {
+    height: 60px;
+    width: 60px; } }
+
+@media (min-width: 430px) and (max-width: 992px) {
+  #solutions .solutions__wrap {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; }
+  #solutions .solutions__title {
+    font-size: 32px; }
+  #solutions .solutions__description {
+    font-size: 20px; }
+  #solutions .solutions__cards .solutions__cards-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; }
+    #solutions .solutions__cards .solutions__cards-icon .circle {
+      height: 60px;
+      width: 60px;
+      margin-left: 15px; }
+  #solutions .solutions__cards .solutions__cards-text {
+    padding: 20px; }
+    #solutions .solutions__cards .solutions__cards-text h3 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 20px; }
+    #solutions .solutions__cards .solutions__cards-text p {
+      font-family: "Inter", sans-serif;
+      font-size: 14px; }
+  #presentation .presentation__text .presentation__text-title {
+    font-size: 24px; }
+  #presentation .presentation__text .presentation__text-description {
+    font-size: 16px; }
+  #presentation .presentation__text .presentation__text-button {
+    font-size: 20px; }
+  #presentation .presentation__image {
+    height: 300px; }
+  #opinions .opinions__title {
+    font-size: 24px; }
+  .banner {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; }
+    .banner .banner-text {
+      font-size: 20px;
+      margin: 0 auto;
+      padding: 15px; }
+    .banner .banner-button {
+      margin: 0 auto;
+      font-size: 20px;
+      color: #FAFAFA;
+      background: rgba(41, 202, 209, 0.9);
+      border-radius: 6px;
+      border: none; }
+  .whatsapp-icon {
+    height: 60px;
+    width: 60px; } }
 
 @media (max-width: 575px) {
   .footer__container {

@@ -26,6 +26,11 @@
         padding: 0;
         li{
             margin-bottom: 10px;
+            transition: 500ms all;
+        }
+        li:hover {
+            color: $primary-color;
+            transform: scale(1.1, 1.1)
         }
     }
     &__text--bold{

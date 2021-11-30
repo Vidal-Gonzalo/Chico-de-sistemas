@@ -1,3 +1,169 @@
+@media (min-width: 320px) and (max-width: 430px){
+    #solutions {
+        .solutions__wrap {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+        .solutions__title{
+            font-size: 24px;
+        }
+        .solutions__description{
+            font-size: 16px;
+        }
+        .solutions__cards{
+            margin: 50px 0px 0px 0px;
+           .solutions__cards-icon{
+               .circle{
+                height:60px;
+                width:60px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               }
+            }
+        }
+    }
+
+    #presentation {
+        .presentation__text {
+            .presentation__text-title{
+                font-size: 24px;
+            }
+            .presentation__text-description {
+                font-size: 16px;
+            }
+            .presentation__text-button {
+                font-size: 20px;
+            }
+        }
+        .presentation__image {
+            height: 300px;
+        }
+    }
+
+    #opinions {
+        .opinions__title {
+            font-size: 24px;
+        }
+    }
+
+    .banner {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        .banner-text {
+            font-size: 20px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        .banner-button {
+            margin: 0 auto;
+            font-size: 20px;
+            color: $secondary-color;
+            background: rgba(41, 202, 209, 0.9);
+            border-radius: 6px;
+            border: none;
+        }
+    }
+    
+    .whatsapp-icon {
+        height:60px;
+        width:60px;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 992px){
+    #solutions {
+        .solutions__wrap {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+        .solutions__title{
+            font-size: 32px;
+        }
+        .solutions__description{
+            font-size: 20px;
+        }
+        .solutions__cards{
+           .solutions__cards-icon{
+               display: flex;
+               align-items: center;
+               margin-top: 10px;
+               .circle{
+                height:60px;
+                width:60px;
+                margin-left: 15px;
+               }
+            }
+            .solutions__cards-text {
+                padding: 20px;
+
+                h3{
+                    font-family: $primary-text;
+                    font-weight: $font-semi;
+                    font-size: 20px;
+                }
+                
+                p{
+                    font-family: $secondary-text;
+                    font-size: 14px;
+                }
+            }   
+           
+        }
+    }
+
+    #presentation {
+        .presentation__text {
+            .presentation__text-title{
+                font-size: 24px;
+            }
+            .presentation__text-description {
+                font-size: 16px;
+            }
+            .presentation__text-button {
+                font-size: 20px;
+            }
+        }
+        .presentation__image {
+            height: 300px;
+        }
+    }
+
+    #opinions {
+        .opinions__title {
+            font-size: 24px;
+        }
+    }
+
+    .banner {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        .banner-text {
+            font-size: 20px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        .banner-button {
+            margin: 0 auto;
+            font-size: 20px;
+            color: $secondary-color;
+            background: rgba(41, 202, 209, 0.9);
+            border-radius: 6px;
+            border: none;
+        }
+    }
+    
+    .whatsapp-icon {
+        height:60px;
+        width:60px;
+    }
+}
+
 @media (max-width: 575px){
     //Footer
     .footer{
