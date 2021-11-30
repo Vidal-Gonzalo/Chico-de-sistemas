@@ -10,10 +10,13 @@
   font-family: "Poppins", sans-serif;
   color: #338BFF;
   padding: 20px 20px 20px 20px;
-  border-bottom: 1px solid #000000; }
+  border-bottom: 1px solid #000000;
+  transition: 500ms all; }
 
-.navbar .dropdown-menu
-.navbar-nav .nav-item .nav-link:hover {
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #f1f1f1; }
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
   color: #338BFF !important;
   transform: scale(1.1, 1.1); }
 
@@ -283,7 +286,8 @@
     align-items: center;
     flex-direction: row;
     border-radius: 14px;
-    box-shadow: 5px 8px 10px 10px rgba(14, 13, 13, 0.17); }
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
     #solutions .solutions__cards .solutions__cards-icon {
       display: flex;
       align-items: center; }

@@ -6,16 +6,20 @@
         font-weight: $font-regular;
         margin: 0px 15px 0px 15px;
         transition: all 500ms;
-  
     }
+    
     .dropdown-menu .dropdown-item{
         font-family: $primary-text;
         color: $primary-color;
         padding: 20px 20px 20px 20px;
         border-bottom: 1px solid #000000; 
+        transition: 500ms all;
     }
 
-    .dropdown-menu
+    .dropdown-menu .dropdown-item:hover{
+        background-color: #f1f1f1;
+    }
+
     .navbar-nav .nav-item .nav-link:hover{
         color: $primary-color !important;
         transform: scale(1.1, 1.1)
