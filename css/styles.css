@@ -13,6 +13,12 @@
 .navbar .active {
   color: #338BFF !important; }
 
+@media (min-width: 320px) and (max-width: 425px) {
+  .navbar .navbar-brand img {
+    width: 230px; }
+  .navbar .navbar-nav .nav-item .nav-link {
+    margin: 0px 0px 0px 0px; } }
+
 .footer {
   padding-top: 130px;
   margin-top: 130px;
@@ -68,6 +74,11 @@
 .footer__copyright {
   color: #F1F6FD;
   font-weight: 500; }
+
+.carousel .carousel-indicators button {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%; }
 
 .carousel .carousel-control-next {
   z-index: 0; }
