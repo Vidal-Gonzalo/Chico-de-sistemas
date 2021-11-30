@@ -464,7 +464,7 @@
 @media (min-width: 576px) and (max-width: 992px) {
   .footer__container {
     display: grid;
-    grid-template-areas: 'logo social' 'services contact'; }
+    grid-template-areas: 'logo social' 'services contact'; }
   .footer__logo {
     grid-area: logo; }
   .footer__nav--services {
