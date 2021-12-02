@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "deploy": "chico-de-sistemas",
+    "staging": "chico-de-sistemas"
+  },
+  "targets": {}
+}
