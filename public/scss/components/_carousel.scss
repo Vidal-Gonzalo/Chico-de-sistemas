@@ -79,35 +79,6 @@
     }
 }
 
-@media (min-width: 1700px){
-    .carousel {
-        .carousel-item {
-            .carousel-caption {
-                top: 30%;
-                right: 90%;
-                h1{
-                    font-size: 55px;
-                }
-            }
-            .carousel-second-caption {
-                top: 20%;
-                right: 0%;
-                left: 24%;
-                h1{
-                    font-size: 55px;
-                }
-            }
-            .carousel-third-caption {
-                top: 20%;
-                right: 0%;
-                left: 24%;
-                h1{
-                    font-size: 55px;
-                }
-            }
-        }
-    }
-}   
 
 @media (max-width: 992px){
     .carousel{
